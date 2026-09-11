@@ -128,6 +128,12 @@ PYTHONPATH=src python app.py
 http://127.0.0.1:7860
 ```
 
+从 GitHub 克隆或下载项目后，先恢复启动脚本的执行权限：
+
+```bash
+chmod +x start.command start-search.command
+```
+
 安装完成后，直接双击 `start.command`。它会依次启动 Docker Desktop、
 SearXNG 联网搜索和 PDF 问答页面，无需再单独点击 `start-search.command`。如果以后安装了
 Zotero 或 Anki，它也会自动尝试打开这两款本机服务。

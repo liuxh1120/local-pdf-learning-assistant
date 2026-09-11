@@ -112,6 +112,12 @@ PYTHONPATH=src python app.py
 
 The app opens at `http://127.0.0.1:7860`.
 
+After cloning or downloading the project from GitHub, restore the launcher permissions:
+
+```bash
+chmod +x start.command start-search.command
+```
+
 On macOS, after installation you can double-click `start.command`. It starts Docker Desktop, SearXNG, and the assistant, and also attempts to open Zotero and Anki if installed. Use `start-search.command` when you only want to manage SearXNG.
 
 ### 5. Use the assistant
