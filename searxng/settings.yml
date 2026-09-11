@@ -1,0 +1,27 @@
+use_default_settings: true
+
+general:
+  instance_name: "PDF Assistant Search"
+
+search:
+  safe_search: 1
+  formats:
+    - html
+    - json
+
+server:
+  bind_address: "0.0.0.0"
+  port: 8080
+  secret_key: "local-pdf-assistant-change-before-public-use"
+  limiter: false
+  image_proxy: true
+
+outgoing:
+  request_timeout: 10.0
+  max_request_timeout: 20.0
+  extra_proxy_timeout: 10
+  # 如需代理，请取消下面三行的注释，并替换端口。
+  # To use a proxy, uncomment the next three lines and replace the port.
+  # proxies:
+  #   all://:
+  #     - http://host.docker.internal:7897
