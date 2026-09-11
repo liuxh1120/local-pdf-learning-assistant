@@ -1,0 +1,37 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.DS_Store
+data/
+models/
+work/
+.work/
+outputs/
+
+# 用户资料与本地检索产物不得提交
+*.pdf
+*.PDF
+*.sqlite
+*.sqlite3
+*.db
+qdrant/
+page_assets/
+
+# 编辑器与临时文件
+.idea/
+.vscode/
+*.swp
+*.tmp
+*.log

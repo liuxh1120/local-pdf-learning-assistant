@@ -1,0 +1,11 @@
+services:
+  searxng:
+    image: ${SEARXNG_IMAGE:-ghcr.io/searxng/searxng:latest}
+    container_name: pdf-assistant-searxng
+    restart: unless-stopped
+    environment:
+      FORCE_OWNERSHIP: "false"
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - ./searxng:/etc/searxng:rw

@@ -1,0 +1,16 @@
+# 运行依赖 / Runtime dependencies. 开发工具 / Dev tools: pip install -e ".[dev]"
+gradio>=5.49,<7
+openai>=1.75,<3
+python-dotenv>=1.0,<2
+pymupdf>=1.25,<2
+qdrant-client>=1.13,<2
+sentence-transformers>=3.4,<6
+rank-bm25>=0.2.2,<1
+jieba>=0.42.1,<1
+httpx>=0.27,<1
+numpy>=1.26,<3
+mcp>=1.29,<2
+sympy>=1.13,<2
+scipy>=1.15,<2
+pandas>=2.2,<4
+statsmodels>=0.14,<1
